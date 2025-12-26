@@ -170,14 +170,6 @@ const Hero = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <motion.p 
-          className="text-muted-foreground font-body text-sm tracking-widest uppercase mb-6"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        >
-          Hi there, I'm Antony
-        </motion.p>
         
         <motion.h1 
           className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-[0.95] tracking-tight mb-6 md:mb-8"
